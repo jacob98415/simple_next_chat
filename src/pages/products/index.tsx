@@ -1,7 +1,10 @@
 import SearchInput from "@/components/SearchInput";
+import Navbar from "@/components/navbar";
 
 const Products = () => {
   return (
+    <>
+    <Navbar />
     <div className="bg-gray-100">
       <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-4">Our Products</h1>
@@ -177,6 +180,7 @@ const Products = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

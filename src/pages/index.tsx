@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import NavbarLogin from "@/components/navbar-login";
 
 export default function Home() {
-  return <p>Hello Home page</p>;
+  return (
+    <>
+      <NavbarLogin />
+      <p>Hello Home page</p>
+    </>
+  );
 }
